@@ -25,7 +25,9 @@ public class Punto {
 	}
 	
 	public double calcularDistancia(){
-		
+		double distancia = 0;
+		distancia = punto1 - punto2;
+		return distancia;
 	}
 	
 	
